@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLank University Website</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Testimonial Swiper -->
+    <link rel="stylesheet" href="http://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!------------ Header Section ------------>
+    <header class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./course.html">COURSE</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's Best University</h1>
+            <p>Making website is now one of the easiest thing in the world. You just need to learn HTML, CSS,<br>Javascript and you are goog to go.
+            </p>
+            <a href="" class="hero-btn">Visit Us To know More</a>
+        </div>
+    </header>
+
+    <!------------ Course ------------>
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati recusandae accusamus fugit. Repellendus iusto veniam quia, voluptate aut, pariatur cum provident iure ut in rerum?</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati recusandae accusamus fugit. Repellendus iusto veniam quia, voluptate aut, pariatur cum provident iure ut in rerum?</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati recusandae accusamus fugit. Repellendus iusto veniam quia, voluptate aut, pariatur cum provident iure ut in rerum?</p>
+            </div>
+        </div>
+    </section>
+
+    <!------------ Campus ------------>
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="./img/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./img/newyork.png">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./img/washington.png">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------ Facilities ------------>
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./img/library.jpg">
+                <h3>World Class Library</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos nisi quos nihil.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./img/playgroud.jpg">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos nisi quos nihil.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./img/cafeteria.jpg">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos nisi quos nihil.</p>
+            </div>
+        </div>
+    </section>
+
+    <!------------ Testimonials ------------>
+
+    <section class="testimonials" id="testimonials">
+
+        <h1>What Our Student Says</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="mySwiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/client-1.png" alt="">
+                        <h3>Jason Momoa</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, ipsum cumque. Similique quae, eius nisi non nam exercitationem sequi error</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/client-2.png" alt="">
+                        <h3>Kit Harington</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, ipsum cumque. Similique quae, eius nisi non nam exercitationem sequi error</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/client-3.png" alt="">
+                        <h3>Emilia Clarke</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, ipsum cumque. Similique quae, eius nisi non nam exercitationem sequi error</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!------------ Call To Action ------------>
+
+    <section class="cta">
+        <h1>Enroll For Our Various Online Courses<br>Anywhere From The World</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!------------ Footer ------------>
+    <footer>
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga sed magnam soluta maxime illo, ratione natus corrupti<br>odio earum? Quaerat vitae impedit amet non consectetur.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p class="right">
+            Copyright &copy;2021 All rights reserved | Design by <a href="#">Ayesh Chathuranga</a>
+        </p>
+    </footer>
+
+    <!-- Testimonial Swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="./script.js"></script>
+
+</body>
+</html>
